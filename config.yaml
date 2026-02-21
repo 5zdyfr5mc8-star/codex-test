@@ -1,0 +1,12 @@
+search:
+  base_query: '("Osteochondritis Dissecans"[Mesh] OR "osteochondritis dissecans" OR OCD) AND (capitellum OR capitellar OR "humeral capitellum" OR elbow)'
+  exclude_query: 'knee OR talus OR femoral OR ankle'
+  max_results: 200
+  since_year: null
+  until_year: null
+
+rate_limit:
+  requests_per_sec: 3
+
+download:
+  download_pdf: true
